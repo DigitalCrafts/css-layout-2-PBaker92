@@ -1,0 +1,25 @@
+*{
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+.chessboard{
+    height: 100vw;
+}
+.row{
+    display: flex;
+    height: 12.5%;
+}
+.row:nth-last-of-type(even){
+    flex-direction: row-reverse;
+}
+.tile{
+    background-color: #ccc;
+    height: 20px;
+    width: 12.5%;
+    height: 100%;
+}
+
+
+.tile:nth-child(even){
+    background-color: black;
+}
